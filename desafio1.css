@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    Margin:0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+:root {
+    font-size: 100%;
+    --cor-padrao-fonte: #fff;
+    --font-padrao: Helvetica,sans-serif,verdana;
+}
+
+header{
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    background-color: #212121;
+}
+
+h2{
+    margin-top: 12px;
+    margin-left: 120px;
+    font-family: var(--font-padrao);
+    font-size: 1rem;
+    color: var(--cor-padrao-fonte);
+}
+
+#btnheader {
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 130px;
+    padding: 1px;
+    justify-content: flex-end;
+}
+
+.homeBtn{
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: var(--font-padrao);
+    font-size: 0.9rem;
+    background-color:#F9A825;
+    color: var(--cor-padrao-fonte)
+}
+
+.contatoBtn {
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: var(--font-padrao);
+    font-size: 0.9rem;
+    color: var(--cor-padrao-fonte)
+}
+
+.sobreBtn {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: var(--font-padrao);
+    font-size: 0.9rem;
+    color: var(--cor-padrao-fonte)
+}
+
+a.mudarCor:hover {
+   background-color: #F9A825;
+   transition: 2s;
+
+}
+
+main{
+    width: 100%;
+    height: 80%;   
+}
+
+section#principal{
+    width: 50%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    border: 1px solid black;
+}
+
+.esquerda{
+    width: 50%;
+    height: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    flex-wrap: wrap;
+    font-family: var(--font-padrao);
+    font-size: 0.9rem;
+    background-color: #fff;
+    border-right:2px dotted black;
+}
+p{
+    /*background-color: #F5F5F5; - professor como vc nao colocou detalhe de cor nenhuma pra este campo vou deixar em comentario, 
+    porem se fosse alguma cor, o que confunde no pdf , esta seria a cor mais proxima do q esta la no pdf */
+}
+
+.direita{
+    width: 50%;
+    height: 80%;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #fff;
+}
+
+form{
+    width: 90%;
+    margin-top: 45px;
+    height: 20px;
+    padding:2px ;    
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    font-family: var(--font-padrao);
+    font-size: 0.9rem;
+    /*border-radius: 3px; (pelo pdf do desafio não da pra saber se tem ou não tem um radius)*/
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    margin-top: 200px;
+    padding: 30px;
+    background: #212121;
+    font-family: var(--font-padrao);
+    font-size: 1rem;
+    color: var(--cor-padrao-fonte); 
+    text-align: center;
+}
